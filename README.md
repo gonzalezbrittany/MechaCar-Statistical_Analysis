@@ -2,12 +2,12 @@
 
 ## Linear Regression to Predict MPG
 
-Multi linear regresion was utilized to see if a select group of variables provided a non-random amont of variance to the mpg value in the dataset. The variables of interest are: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance and AWD. The results of the analysis are shown below. 
+Multi linear regression was utilized to see if a select group of variables provided a non-random amount of variance to the mpg value in the dataset. The variables of interest are: vehicle_length, vehicle_weight, spoiler_angle, ground_clearance and AWD. The results of the analysis are shown below. 
 Keeping in mind the only variables of interest contain a p-value below 0.05, the analysis shows the two variables vehicle_length and ground_clearance do impact the miles per gallon.
 
 ![image](https://user-images.githubusercontent.com/26393180/163731547-27cba22b-b8b1-4f4f-92af-c792812c3e53.png)
 
-Since our p-value of our mulit linear regression analysis is 5.35 e-11, it is clear that there is a significatn linear relationship between these variables. Meaning, the results of these variables were not due to random change.
+Since our p-value of our mulit linear regression analysis is 5.35 e-11, it is clear that there is a significant linear relationship between these variables. Meaning, the results of these variables were not due to random change.
 
 When determining how well the regression model approximates real-world data, our analysis shows the r-squared value for this analysis to be 0.7149. This shows over 70% of the variability of the dependent variables are explained using the model. Therefore, this multi linear model does predict mpg of MechaCar prototypes effectively. 
 
@@ -40,21 +40,21 @@ Aften creating subset tables based on the lot number, the analysis showed some l
  
  ![image](https://user-images.githubusercontent.com/26393180/163734111-96b61f4c-a79c-4dd7-a30b-1df703feaef7.png)
 
-Overall, our T-Test analysis shows there Lot 3 is the only group that has a p-value below 0.05. Therefore, we only have sufficent evidence to show that there is a statistical difference between the observed sample means and its presumed population mean for Lot 3.  
+Overall, our T-Test analysis shows there Lot 3 is the only group that has a p-value below 0.05. Therefore, we only have sufficient evidence to show that there is a statistical difference between the observed sample means and its presumed population mean for Lot 3.  
 
 ## Study Design: MechaCar vs Competition
 
-A large number of individuals who purchase a vehicle want to be ensured that the vehicle is safe to drive and safe for others to ride along in. Some individuals may be interesting in comparing safety rating and cost across different companies before purchases a vehicle. An additional study would be to perform a statistial analysis comparing cost and safety rating for MechaCar and other competitors. The goal of the analysis would be to show that MechaCar vehicles have high safety ratings while also having lower costs compaired to their competitors. 
+Many individuals who purchase a vehicle want to be ensured that the vehicle is safe to drive and safe for others to ride along in. Some individuals may be interesting in comparing safety rating and cost across different companies before purchases a vehicle. An additional study would be to perform a statistical analysis comparing cost and safety rating for MechaCar and other competitors. The goal of the analysis would be to show that MechaCar vehicles have high safety ratings while also having lower costs compared to their competitors. 
 
-The null hypothesis (Ho) would show that MechaCare has low cost compaired to it's competitors while also having high safetly rating. 
-The alternative hypothesis (Ha) would show that Mechacare does not have low cost compaired to it's competitors while also having high safetly ratings.
+The null hypothesis (Ho) would show that MechaCare has low cost compared to it's competitors while also having high safety rating. 
+The alternative hypothesis (Ha) would show that Mechacare does not have low cost compared to its competitors while also having high safety ratings.
 
-Summary statistics and a T-Test would be conducted to show that MechaCare has low cost compaired to it's competitors while also not sacrificing safetly. Summary statistics would be able to show MechaCare's ha a lower average cost compaired to their competitors while the t-test would be able to back up the analysis to show that the results are statistically sound. By performing this analysis, MechaCare would be able to show customers that purchasing a vehicle from them would be in their best interest. 
+Summary statistics and a T-Test would be conducted to show that MechaCare has low cost compared to its competitors while also not sacrificing safety. Summary statistics would be able to show MechaCare has a lower average cost compared to their competitors while the t-test would be able to back up the analysis to show that the results are statistically sound. By performing this analysis, MechaCare would be able to show customers that purchasing a vehicle from them would be in their best interest. 
 
 Additional Data Needed:
 * Vehicle safety rating results
-* competitor vehicle costs
-* competitor vehicle safety rating results
+* Competitor vehicle costs
+* Competitor vehicle safety rating results
 
 
 
