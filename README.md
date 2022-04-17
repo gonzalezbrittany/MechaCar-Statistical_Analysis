@@ -21,3 +21,20 @@ To ensure that all lots in the dataset meet the specifications, the data was gro
 
 ![image](https://user-images.githubusercontent.com/26393180/163732940-0597e750-f849-495e-b8f9-1f205191f0c8.png)
 
+## T-Tests on Suspension Coils
+
+When performing a one sample t-test on the suspension coil data for all combined lots, our analysis shows a p-value of about 0.06. Since this is above 0.05, we do not have sufficient evidence to show that there is a statistical difference between the observed sample mean and its presumed population mean. See below. 
+
+![image](https://user-images.githubusercontent.com/26393180/163733927-94519852-4f3d-4ac3-95c9-13dc4d85bae5.png)
+
+Aften creating subset tables based on the lot number, the analysis showed some lots do have a statistical difference between the means while others do not.
+* Lot 1 T-Test: Based on our p-value of 1 for lot one, we do not have sufficient evidence to show that there is a statistical difference between the observed sampe means and its presumed population mean. See below.
+![image](https://user-images.githubusercontent.com/26393180/163734021-dfea9f28-e25d-4ca2-874d-cec0bf4e7e73.png)
+* Lot 2 T-Test: Based on our p-value of 0.6072 for lot two, we do not have sufficient evidence to show that there is a statistical difference between the observed sampe means and its presumed population mean. See below.
+ ![image](https://user-images.githubusercontent.com/26393180/163734041-af8441f5-9c84-483f-9e06-23c1a2747b72.png)
+ * Lot 3 T-Test: Based on our p-value of 0.04168, we can conclude that we do have sufficient evidence to show that there is a statistical difference between the observed sample means and its presumed population mean. See below.
+ ![image](https://user-images.githubusercontent.com/26393180/163734111-96b61f4c-a79c-4dd7-a30b-1df703feaef7.png)
+
+Overall, our T-Test analysis shows there Lot 3 is the only group that has a p-value below 0.05. Therefore, we only have sufficent evidence to show that there is a statistical difference between the observed sample means and its presumed population mean for Lot 3.  
+
+
