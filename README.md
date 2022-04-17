@@ -37,4 +37,19 @@ Aften creating subset tables based on the lot number, the analysis showed some l
 
 Overall, our T-Test analysis shows there Lot 3 is the only group that has a p-value below 0.05. Therefore, we only have sufficent evidence to show that there is a statistical difference between the observed sample means and its presumed population mean for Lot 3.  
 
+## Study Design: MechaCar vs Competition
+
+A large number of individuals who purchase a vehicle want to be ensured that the vehicle is safe to drive and safe for others to ride along in. Some individuals may be interesting in comparing safety rating and cost across different companies before purchases a vehicle. An additional study would be to perform a statistial analysis comparing cost and safety rating for MechaCar and other competitors. The goal of the analysis would be to show that MechaCar vehicles have high safety ratings while also having lower costs compaired to their competitors. 
+
+The null hypothesis (Ho) would show that MechaCare has low cost compaired to it's competitors while also having high safetly rating. 
+The alternative hypothesis (Ha) would show that Mechacare does not have low cost compaired to it's competitors while also having high safetly ratings.
+
+Summary statistics and a T-Test would be conducted to show that MechaCare has low cost compaired to it's competitors while also not sacrificing safetly. Summary statistics would be able to show MechaCare's ha a lower average cost compaired to their competitors while the t-test would be able to back up the analysis to show that the results are statistically sound. By performing this analysis, MechaCare would be able to show customers that purchasing a vehicle from them would be in their best interest. 
+
+Additional Data Needed:
+* Vehicle safety rating results
+* competitor vehicle costs
+* competitor vehicle safety rating results
+
+
 
