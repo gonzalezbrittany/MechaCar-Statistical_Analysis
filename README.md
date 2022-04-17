@@ -29,15 +29,15 @@ When performing a one sample t-test on the suspension coil data for all combined
 
 Aften creating subset tables based on the lot number, the analysis showed some lots do have a statistical difference between the means while others do not.
 * Lot 1 T-Test: Based on our p-value of 1 for lot one, we do not have sufficient evidence to show that there is a statistical difference between the observed sampe means and its presumed population mean. See below.
-* 
+
 ![image](https://user-images.githubusercontent.com/26393180/163734021-dfea9f28-e25d-4ca2-874d-cec0bf4e7e73.png)
 
 * Lot 2 T-Test: Based on our p-value of 0.6072 for lot two, we do not have sufficient evidence to show that there is a statistical difference between the observed sampe means and its presumed population mean. See below.
-* 
+
  ![image](https://user-images.githubusercontent.com/26393180/163734041-af8441f5-9c84-483f-9e06-23c1a2747b72.png)
  
  * Lot 3 T-Test: Based on our p-value of 0.04168, we can conclude that we do have sufficient evidence to show that there is a statistical difference between the observed sample means and its presumed population mean. See below.
- * 
+ 
  ![image](https://user-images.githubusercontent.com/26393180/163734111-96b61f4c-a79c-4dd7-a30b-1df703feaef7.png)
 
 Overall, our T-Test analysis shows there Lot 3 is the only group that has a p-value below 0.05. Therefore, we only have sufficent evidence to show that there is a statistical difference between the observed sample means and its presumed population mean for Lot 3.  
